@@ -1,3 +1,8 @@
+/******************************************
+Hero Section
+*******************************************/
+
+
 .hero {
 	background:linear-gradient(to bottom, rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 200%), url(../img/hero.jpg) no-repeat center center;
 	background-size: cover;
@@ -27,57 +32,60 @@
 	height: 200px;
 	width: 100%;
 	border-radius: 20px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+
 }
 
+.product-image {
+	text-align: center;
+}
+
+/******************************************
+Explainer Section
+*******************************************/
+
 .explainer-section {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 
 .explainer-image img {
 	height: 100%;
 	width: 100%;
+	border-radius: 20px;
 }
 
- #map {
-        height: 200px;
-        width: 100%;
-       }
+
+/*Employee Section*/
+
+.employee-image img {
+	height: 200px;
+	width: 100%;
+	border-radius: 50%;
+	margin-bottom: 20px
+}
 
 
-/*Contact Form */
 
-/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}*/
+/******************************************
+Form Section
+*******************************************/
 
-/*body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #4CAF50;
-}*/
 
 .container-form {
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   position: relative;
+
 }
 
+.contact-page {
+	background: url(../img/contact.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%
+	height 500px;
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -177,20 +185,15 @@ fieldset {
   border: 1px solid #aaa;
 }
 
-::-webkit-input-placeholder {
-  color: #888;
-}
 
-:-moz-placeholder {
-  color: #888;
-}
 
-::-moz-placeholder {
-  color: #888;
-}
+/******************************************
+Footer Section
+*******************************************/
 
-:-ms-input-placeholder {
-  color: #888;
+.footer-container {
+	text-align: center;
+	margin-top: 50px;
+	background: #d3d3d3
 }
-
 
