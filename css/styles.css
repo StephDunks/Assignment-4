@@ -194,6 +194,18 @@ Footer Section
 .footer-container {
 	text-align: center;
 	margin-top: 50px;
+  padding-top: 20px;
 	background: #d3d3d3
 }
+
+
+.social-media {
+  text-align: center;
+  padding-top: 20px;
+  background: #d3d3d3
+}
+
+
+
+
 
