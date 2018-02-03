@@ -31,7 +31,7 @@ nav a:hover {
 
 
 /******************************************
-Hero Section
+Hero Section - Home Page
 *******************************************/
 
 
@@ -68,17 +68,19 @@ Hero Section
   color: #fff;
 }
 
+
+
 /******************************************
-Product Section
+Devices Section - Home Page
 *******************************************/
 
-.product-section {
+.device-section {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.product-section h1 {
-  margin-bottom: 30px;
+.device-section h1 {
+  margin-bottom: 50px;
 }
 
 
@@ -93,7 +95,7 @@ Product Section
 
 
 /******************************************
-Explainer Section
+Explainer Section - Home Page
 *******************************************/
 
 .explainer-section {
@@ -107,20 +109,83 @@ Explainer Section
 	border-radius: 20px;
 }
 
+/******************************************
+Employee Section - About Page
+*******************************************/
 
-/*Employee Section*/
+.about {
+  background:linear-gradient(to bottom, rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 200%), url("../img/about-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-hero {
+  text-align: center;
+}
+
+.about-hero h1 {
+  margin-bottom: 20px;
+}
+
+.about-hero p  {
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.employee-container {
+  margin-bottom: 100px;
+  text-align: center;
+} 
+
+
+.employee-container h1 {
+  margin-bottom: 50px;
+
+} 
 
 .employee-image img {
-	height: 200px;
+	height: 80%;
 	width: 100%;
-	border-radius: 50%;
-	margin-bottom: 20px
+  margin-bottom: 50px;
+	
+}
+
+/******************************************
+Plan Section - Product Page
+*******************************************/
+
+.plan-section {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 300px;
+  margin: 1rem;
+  
+  width: 300px;
 }
 
 
 
+
+
+
+
 /******************************************
-Form Section
+Form Section - Contact Page
 *******************************************/
 
 
@@ -209,7 +274,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4CAF50;
+  background: #41a329;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -247,14 +312,27 @@ Footer Section
 	text-align: center;
 	margin-top: 50px;
   padding-top: 20px;
-	background: #d3d3d3
+	background: #a32942;;
+  color: #fff;
 }
+
+.footer-container a {
+  color: #fff;
+}
+
+
+.footer-container a:hover {
+  color: #41a329;
+}
+
+
+
 
 
 .social-media {
   text-align: center;
   padding: 20px 0 20px 0;
-  background: #a32942;
+  background: #41a329;
   color: #fff;
 
 }
