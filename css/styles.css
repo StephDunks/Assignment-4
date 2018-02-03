@@ -1,4 +1,36 @@
 /******************************************
+Navigation Section
+*******************************************/
+
+.navbar-default {
+    background-color: #a32942;
+    color: #fff;
+    text-align: center;
+    
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #41a329;
+  transition-duration: .4s;
+}
+
+
+.fa-bars {
+  margin-top: 5px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+/******************************************
 Hero Section
 *******************************************/
 
@@ -16,6 +48,10 @@ Hero Section
 
 }
 
+.hero-caption {
+  text-align: center;
+}
+
 
 .hero-caption h1 {
 	font-size: 80px;
@@ -24,7 +60,25 @@ Hero Section
 
 .hero-caption h4 {
 	color: #fff;
-    margin-left: -18px;
+  margin-bottom: 30px;
+}
+
+.hero-caption button {
+  background:rgba(65, 163, 41, 0.8);
+  color: #fff;
+}
+
+/******************************************
+Product Section
+*******************************************/
+
+.product-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-section h1 {
+  margin-bottom: 30px;
 }
 
 
@@ -36,9 +90,7 @@ Hero Section
 
 }
 
-.product-image {
-	text-align: center;
-}
+
 
 /******************************************
 Explainer Section
@@ -201,10 +253,15 @@ Footer Section
 
 .social-media {
   text-align: center;
-  padding-top: 20px;
-  background: #d3d3d3
+  padding: 20px 0 20px 0;
+  background: #a32942;
+  color: #fff;
+
 }
 
+.social-media i {
+  font-size: 40px;
+}
 
 
 
