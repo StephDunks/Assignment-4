@@ -9,8 +9,13 @@ Navigation Section
     
 }
 
+.navbar-brand {
+  font-size: 22.5px;
+}
+
 nav a {
   color: #fff;
+  font-size: 22.5px;
 }
 
 nav a:hover {
@@ -169,33 +174,34 @@ Plan Section - Product Page
   text-align: center;
 }
 
+.plan-section h1 {
+  font-size: 40px;
+}
+
 
 .pricing-card h1 p {
     margin: 0;
 }
 
 
-ul {
+.plan-section ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    font-weight: 500;
-}
 
 .pricing-card {
     width: 700px;
     font-family: 'Open Sans';
     display: flex;
     margin: 75px auto;
-    box-shadow: 15px 30px 30px 0 rgba(220, 36, 48, 0.15);
+    box-shadow: 15px 30px 30px 0 rgba(65, 163, 41, 0.2);
 }
 
 .card-left {
     text-align: center;
-    background: linear-gradient(65deg, #7b4397 , #dc2430);
+    background: linear-gradient(65deg, #a32942, #dc2430);
     color: #fff;
     width: 30%;
     padding: 85px 20px;
@@ -222,7 +228,6 @@ h1 {
     text-align: left;
     background: #fff;
     width: 70%;
-    color: $red;
     border-radius: 0 6px 6px 0;
     padding: 40px 40px;
 }
@@ -253,11 +258,6 @@ h1 {
 .button:hover {
     background: #fff;
 }
-
-
-
-
-
 
 
 /******************************************
@@ -400,9 +400,6 @@ Footer Section
 .footer-container a:hover {
   color: #41a329;
 }
-
-
-
 
 
 .social-media {
