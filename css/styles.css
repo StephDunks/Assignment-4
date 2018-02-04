@@ -15,12 +15,16 @@ Navigation Section
 
 nav a {
   color: #fff;
-  font-size: 22.5px;
+  font-size: 20px;
 }
 
 nav a:hover {
   color: #41a329;
   transition-duration: .4s;
+}
+
+nav a[href].selected, a.selected:active {
+  color: #41a329;
 }
 
 
@@ -175,7 +179,11 @@ Plan Section - Product Page
 }
 
 .plan-section h1 {
-  font-size: 40px;
+  font-size: 60px;
+}
+
+.pricing-card ul {
+  list-style: none;
 }
 
 
@@ -183,12 +191,6 @@ Plan Section - Product Page
     margin: 0;
 }
 
-
-.plan-section ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 
 .pricing-card {
@@ -399,6 +401,11 @@ Footer Section
 
 .footer-container a:hover {
   color: #41a329;
+}
+
+.footer-container .map img {
+  width: 100%;
+  height: 100%;
 }
 
 
