@@ -1,11 +1,30 @@
 /******************************************
+General Styles
+*******************************************/
+
+h1, h2, h3, h4 {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  
+  font-family: 'arvo', sans-serif;
+}
+
+a {
+  font-family: 'roboto', sans-serif;
+}
+
+/******************************************
 Navigation Section
 *******************************************/
 
 .navbar-default {
-    background-color: #a32942;
-    color: #fff;
-    text-align: center;
+  background-color: #a32942;
+  color: #fff;
+  text-align: center;
     
 }
 
@@ -32,12 +51,6 @@ nav a[href].selected, a.selected:active {
   margin-top: 5px;
   color: #fff;
 }
-
-
-
-
-
-
 
 /******************************************
 Hero Section - Home Page
@@ -145,6 +158,7 @@ Employee Section - About Page
 
 .about-hero h1 {
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .about-hero p  {
