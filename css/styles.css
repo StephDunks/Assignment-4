@@ -220,18 +220,19 @@ Plan Section - Product Page
     background: linear-gradient(65deg, #a32942, #dc2430);
     color: #fff;
     width: 30%;
-    padding: 85px 20px;
+    padding: 85px 20px
     border-radius: 6px 0 0 6px;
 }
 
 .card-left h1 {
     text-transform: uppercase;
     margin-bottom: 2px;
+    padding-top: 80px;
     font-size: 24px;
 }
 
 .card-left p {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .dollar {
@@ -273,6 +274,30 @@ Plan Section - Product Page
 
 .button:hover {
     background: #fff;
+}
+
+@media (max-width: 576px) {
+  .card-left h1 {
+    padding-top: 75px;
+    font-size: 20px;
+  }
+
+  .card-left p {
+      font-size: 30px;
+      padding-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-left h1 {
+    padding-top: 75px;
+    font-size: 30px;
+  }
+
+  .card-left p {
+      font-size: 35px;
+      padding-top: 50px;
+  }
 }
 
 
